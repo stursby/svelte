@@ -41,7 +41,7 @@ Now, visit `http://localhost:8000/` in your browser.
 
 ## Database
 
-Svelte uses [Idiorm]() ORM to setup and query a Database. You can read more about Idiorm [here](http://idiorm.readthedocs.org/en/latest/index.html).
+Svelte uses [Idiorm](http://j4mie.github.io/idiormandparis/) ORM to setup and query a Database. You can read more about Idiorm [here](http://idiorm.readthedocs.org/en/latest/index.html).
 
 ## License
 
