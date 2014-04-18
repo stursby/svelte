@@ -1,15 +1,15 @@
 <?php
 
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 
 $app = new \Slim\Slim(array(
-    'templates.path' => '../views',
+    'templates.path' => 'views',
 ));
 
 $app->view(new \Slim\Views\Twig());
 $app->view->parserOptions = array(
     'charset' => 'utf-8',
-    'cache' => realpath('../views/cache'),
+    'cache' => realpath('views/cache'),
     'auto_reload' => true,
     'strict_variables' => false,
     'autoescape' => true  
